@@ -490,14 +490,13 @@
     border-right: none;
 }
 
-/* media query */
+/* media query custom style */
 
 @media (min-width: 992px) {
     .owner-name {
         font-size: 26px;
     }
 }
-
 
 @media (min-width: 1200px) {
     .owner-name {
