@@ -21,10 +21,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
+
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
-
+    <!-- canvas styling -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -33,7 +37,9 @@
 </head>
 
 <body>
+    
     <div class="header">
+
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -92,11 +98,22 @@
         </div>
     </div>
     <!-- Header End -->
+    <!-- Html -->
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-1.jpg);">
+        <div class="demo-1">
+            <div class="content">
+                <div id="large-header" class="large-header" style="max-height:250px;">
+                    <canvas id="demo-canvas"></canvas>
+                    <h1 class="main-title">Backend <span class="thin">Developer</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5 align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6 hello-card">
                     <!-- <h6 class="section-title text-start text-primary text-uppercase"></h6> -->
                     <h1 class="mb-4 text-xs-center text-sm-center text-md-start text-primary text-uppercase">Welcome</h1>
                     <p>
@@ -198,6 +215,12 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- script animation for canvas demo -->
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/rAF.js"></script>
+    <script src="js/demo-1.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
